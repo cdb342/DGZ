@@ -26,14 +26,11 @@ Codes released in this work is trained and tested on:
 ## Prerequisites
 - Dataset: Please download the [dataset](https://www.mpi-inf.mpg.de/departments/computer-vision-and-machine-learning/research/zero-shot-learning/zero-shot-learning-the-good-the-bad-and-the-ugly), and change `--dataroot` in `config.py` to your local path. Please refer to [SDGZSL](https://github.com/uqzhichen/SDGZSL) for the finetuned features.
 - Attribute: The attributes for AWA2, SUN, and APY are available in the datasets. Please download the 1024-D [CUB semantic](https://github.com/Hanzy1996/CE-GZSL) and save it to the data path.
-
 ## Train and Test
 Please run the scripts in `./scripts` to reproduce the results in the paper, e.g.,
 ```
 sh ./scripts/AWA2.sh
 ```
-
-
 ## Citation
 If you recognize our work, please cite:  
 ```
@@ -44,7 +41,6 @@ If you recognize our work, please cite:
             year={2023}
           }
 ```
-    
 ## Acknowledgment
 Our implementation is inspired by [f-CLSWGAN](https://www.mpi-inf.mpg.de/departments/computer-vision-and-machine-learning/research/zero-shot-learning/feature-generating-networks-for-zero-shot-learning). We appreciate the authors for sharing it as an open source.
 
