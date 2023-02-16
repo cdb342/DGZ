@@ -16,3 +16,36 @@ Deconstructed Generation-Based Zero-Shot Model
 Dubing Chen, Yuming Shen, Haofeng Zhang, Philip H.S. Torr
 </div>
 Codes will be released soon!
+
+## Dependencies
+Codes released in this work is trained and tested on:
+- Ubuntu Linux
+- Python 3.8.15
+- Pytorch 1.13.0
+- NVIDIA CUDA 11.6
+- 1x NVIDIA GeForce rtx 2080 ti GPU
+## Prerequisites
+- Dataset: Please download the [dataset](https://www.mpi-inf.mpg.de/departments/computer-vision-and-machine-learning/research/zero-shot-learning/zero-shot-learning-the-good-the-bad-and-the-ugly), and change `--dataroot` to your local path. Please refer to [SDGZSL](https://github.com/uqzhichen/SDGZSL) for the finetuned features.
+- Semantic: The semantics for AWA2, SUN, and APY are available in the datasets. Please download the 1024-D [CUB semantic](https://github.com/Hanzy1996/CE-GZSL) and save it to the data path.
+
+## Train and Test
+Please run the scripts in `./scripts` to reproduce the results in the paper, e.g.,
+```
+sh ./scripts/AWA2.sh
+```
+
+
+## Citation
+If you recognize our work, please cite:  
+```
+@inproceedings{chen2023deconstructed,
+            title={Deconstructed Generation-Based Zero-Shot Model},
+            author={Chen, Dubing and Shen, Yuming and Zhang, Haofeng and Torr, Philip H.S.},
+            booktitle={AAAI},
+            year={2023}
+          }
+```
+    
+## Acknowledgment
+Our implementation is inspired by [f-CLSWGAN](https://www.mpi-inf.mpg.de/departments/computer-vision-and-machine-learning/research/zero-shot-learning/feature-generating-networks-for-zero-shot-learning). We appreciate the authors for sharing it as an open source.
+
