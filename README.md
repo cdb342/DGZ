@@ -15,6 +15,7 @@ Deconstructed Generation-Based Zero-Shot Model
 <div align="center">
 Dubing Chen, Yuming Shen, Haofeng Zhang, Philip H.S. Torr
 </div>
+
 ## Dependencies
 Codes released in this work is trained and tested on:
 - Ubuntu Linux
