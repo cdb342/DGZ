@@ -37,7 +37,7 @@ If you recognize our work, please cite:
 @inproceedings{chen2023deconstructed,
             title={Deconstructed Generation-Based Zero-Shot Model},
             author={Chen, Dubing and Shen, Yuming and Zhang, Haofeng and Torr, Philip H.S.},
-            booktitle={AAAI},
+            booktitle={Proceedings of the 37th AAAI Conference on Artificial Intelligence (AAAI-23)},
             year={2023}
           }
 ```
