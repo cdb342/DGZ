@@ -17,7 +17,7 @@ Dubing Chen, Yuming Shen, Haofeng Zhang, Philip H.S. Torr
 </div>
 
 ## Dependencies
-Codes released in this work is trained and tested on:
+Codes released in this work are trained and tested on:
 - Ubuntu Linux
 - Python 3.8.15
 - Pytorch 1.13.0
